@@ -1,0 +1,9 @@
+1) Logger.php, LoggerClass.php, RouterLogger.php - parts of activity logger module
+Logger.php - example of eloquent model
+LoggerClass.php - example of class for service provider for activity logger
+RouterLogger.php - example of middleware for handling an incoming requests with using after middleware principle
+
+2) AccountController.php, UserSettingsUpdateRequest.php, UserSettings.php - parts of user account module
+AccountController.php - example of controller for managing  user account
+UserSettingsUpdateRequest.php - example of using custom form request with data validation (used custom validation rules)  
+UserSettings.php - example of eloquent model with using different types of relations
